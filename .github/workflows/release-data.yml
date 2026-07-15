@@ -1,0 +1,22 @@
+name: Build HPO Data Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Release tag declared by a committed JSON spec.
+        required: true
+        type: choice
+        options:
+          - hpo-v2026-06-23-r1
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    uses: berntpopp/phentrieve/.github/workflows/build-data-bundles.yml@8ac8942429b3e542196943e0cd590b5aa1224b51
+    with:
+      release_tag: ${{ inputs.release_tag }}
+      release_spec_path: releases/${{ inputs.release_tag }}.json
+      source_commit: 8ac8942429b3e542196943e0cd590b5aa1224b51

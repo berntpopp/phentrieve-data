@@ -1,0 +1,16 @@
+# Generated data-release artifacts never belong in this metadata repository.
+dist/
+data/
+indexes/
+.runs/
+hf_cache/
+.cache/
+*.tar.gz
+*.db
+chroma.sqlite3
+data_level0.bin
+
+# Local tooling
+.venv/
+__pycache__/
+.DS_Store
