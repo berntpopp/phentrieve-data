@@ -1,0 +1,59 @@
+{
+  "active_terms": 19836,
+  "hpo_release_date": "2026-06-23",
+  "hpo_sha256": "3b646565695329aa399e937883c68d5d424d0df5eaab2f22baa0e08d44fdbe87",
+  "hpo_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-06-23/hp.json",
+  "hpo_version": "v2026-06-23",
+  "lockfile_sha256": "f18c37b0dfa41d2e677ac1726745c7bbf9127d25cb661ed31a3e4bfebb858c26",
+  "models": [
+    {
+      "name": "FremyCompany/BioLORD-2023-M",
+      "revision": "4ea2ea2c89ef63365f7fcd91406a0cd8ac36d2e2",
+      "slug": "biolord"
+    },
+    {
+      "name": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "slug": "bge-m3"
+    },
+    {
+      "name": "sentence-transformers/LaBSE",
+      "revision": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+      "slug": "labse"
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+      "slug": "mpnet-multi"
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "slug": "minilm-multi"
+    },
+    {
+      "name": "Alibaba-NLP/gte-multilingual-base",
+      "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+      "slug": "gte-multi"
+    },
+    {
+      "name": "jinaai/jina-embeddings-v2-base-de",
+      "revision": "3f9eede875721714945b6a99a3198299243cf2be",
+      "slug": "jina-de"
+    },
+    {
+      "name": "T-Systems-onsite/cross-en-de-roberta-sentence-transformer",
+      "revision": "73fdad86ea7ac68989712ce2007ab43ae89a2ad7",
+      "slug": "tsystems-ende"
+    },
+    {
+      "name": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+      "revision": "bfe45d0732ca50787611c0fe107ba278c7f3f889",
+      "slug": "distiluse-multi"
+    }
+  ],
+  "multivector_documents": 63428,
+  "phentrieve_version": "0.26.0",
+  "release_tag": "hpo-v2026-06-23-r1",
+  "source_commit": "48a489ea61b94c70c8fb3c089df35234b8f2ec18"
+}
