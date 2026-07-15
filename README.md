@@ -36,8 +36,11 @@ verify it before extraction:
 sha256sum --check --ignore-missing SHA256SUMS
 ```
 
-The legacy `data-v2026-02-16` release remains in the software repository and
-can be selected with `PHENTRIEVE_DATA_RELEASE_REPOSITORY=berntpopp/phentrieve`.
+Historical data releases are mirrored here under their original `data-v...`
+tags so existing automation can move to this repository without changing an
+asset name. They retain the legacy archive layout and checksum filenames. The
+software repository keeps its original releases as read-only compatibility
+copies; new data releases are published only here.
 
 ## Publication policy
 
@@ -46,3 +49,7 @@ multi-vector bundle for each declared model, `SHA256SUMS`,
 `release-manifest.json`, and `verification-report.json`. Publish immutable
 releases only after the full artifact set and remote checksums have been
 reviewed.
+
+Historical mirrors predate this contract. Their original GitHub Release
+metadata and assets are preserved, and their GitHub-provided SHA-256 digests
+are compared with the source release before publication.
