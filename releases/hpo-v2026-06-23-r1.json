@@ -4,7 +4,7 @@
   "hpo_sha256": "3b646565695329aa399e937883c68d5d424d0df5eaab2f22baa0e08d44fdbe87",
   "hpo_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-06-23/hp.json",
   "hpo_version": "v2026-06-23",
-  "lockfile_sha256": "f18c37b0dfa41d2e677ac1726745c7bbf9127d25cb661ed31a3e4bfebb858c26",
+  "lockfile_sha256": "bf1dde2b38c94b6dfb8a84bc10739c9a36dd35ce069791faaa583a95c8b0ecf6",
   "models": [
     {
       "name": "FremyCompany/BioLORD-2023-M",
@@ -38,12 +38,14 @@
     },
     {
       "name": "Alibaba-NLP/gte-multilingual-base",
+      "code_revision": "40ced75c3017eb27626c9d4ea981bde21a2662f4",
       "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
       "slug": "gte-multi",
       "trust_remote_code": true
     },
     {
       "name": "jinaai/jina-embeddings-v2-base-de",
+      "code_revision": "f3ec4cf7de7e561007f27c9efc7148b0bd713f81",
       "revision": "3f9eede875721714945b6a99a3198299243cf2be",
       "slug": "jina-de",
       "trust_remote_code": true
@@ -64,5 +66,5 @@
   "multivector_documents": 63428,
   "phentrieve_version": "0.26.0",
   "release_tag": "hpo-v2026-06-23-r1",
-  "source_commit": "c0d76d42f0c77b0b0ff72b3238fae3646c6e9fa1"
+  "source_commit": "b6c50c1f0e12eb2aae83471b0680760ee35f6a88"
 }

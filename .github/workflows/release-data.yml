@@ -15,8 +15,8 @@ permissions:
 
 jobs:
   build:
-    uses: berntpopp/phentrieve/.github/workflows/build-data-bundles.yml@c0d76d42f0c77b0b0ff72b3238fae3646c6e9fa1
+    uses: berntpopp/phentrieve/.github/workflows/build-data-bundles.yml@b6c50c1f0e12eb2aae83471b0680760ee35f6a88
     with:
       release_tag: ${{ inputs.release_tag }}
       release_spec_path: releases/${{ inputs.release_tag }}.json
-      source_commit: c0d76d42f0c77b0b0ff72b3238fae3646c6e9fa1
+      source_commit: b6c50c1f0e12eb2aae83471b0680760ee35f6a88
