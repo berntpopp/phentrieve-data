@@ -8,6 +8,7 @@ on:
         required: true
         type: choice
         options:
+          - hpo-v2026-06-23-r2
           - hpo-v2026-06-23-r1
 
 permissions:
@@ -15,8 +16,8 @@ permissions:
 
 jobs:
   build:
-    uses: berntpopp/phentrieve/.github/workflows/build-data-bundles.yml@b6c50c1f0e12eb2aae83471b0680760ee35f6a88
+    uses: berntpopp/phentrieve/.github/workflows/build-data-bundles.yml@33af856984c530369d2b457e0a89dc931c94e908
     with:
       release_tag: ${{ inputs.release_tag }}
       release_spec_path: releases/${{ inputs.release_tag }}.json
-      source_commit: b6c50c1f0e12eb2aae83471b0680760ee35f6a88
+      source_commit: 33af856984c530369d2b457e0a89dc931c94e908
