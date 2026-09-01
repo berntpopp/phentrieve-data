@@ -4,7 +4,7 @@
   "hpo_sha256": "3b646565695329aa399e937883c68d5d424d0df5eaab2f22baa0e08d44fdbe87",
   "hpo_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-06-23/hp.json",
   "hpo_version": "v2026-06-23",
-  "lockfile_sha256": "5c5022049a17c2ff54a7549ab96757f6e3a2d998c40bc7e297b507f210be44da",
+  "lockfile_sha256": "480bfdcb8953a5ead22468f06e24d035374928186a5e5a9aa143b76674f5dad6",
   "models": [
     {
       "name": "FremyCompany/BioLORD-2023-M",
@@ -59,5 +59,5 @@
   "multivector_documents": 63428,
   "phentrieve_version": "0.27.0",
   "release_tag": "hpo-v2026-06-23-r2",
-  "source_commit": "33af856984c530369d2b457e0a89dc931c94e908"
+  "source_commit": "21af980abcc3614cf35e42e6fa7b4654fd14bd57"
 }
